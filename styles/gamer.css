@@ -174,7 +174,7 @@ h1{
 
 .online-games{
     max-width: 1800px;
-    max-height: 500px;
+    max-height: auto;
     text-align: center;
 }
 
@@ -214,6 +214,43 @@ padding-bottom: 10px;
     justify-content: space-between; */
 }
 
+
+/* main section 2 */
+
+.main-section{
+    margin-top: 50px;
+    max-width: 1700px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-text{
+    width: 45%;
+    text-align: center;
+}
+
+.main-img{
+    width: 55%;
+}
+
+.play{
+    color: #F948B2;
+}
+
+.lil-img{
+    width: 300px;
+    height: auto;
+    position: relative;
+    bottom: 280px;
+    margin-right: 100px;
+}
+
+
+.big-img{
+    width: 70% auto;
+    
+}
 
 /* footer section */
 
