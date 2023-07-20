@@ -9,13 +9,34 @@
         margin-right: 140px;
     }
 
+    .nav-items-container{
+        width: 100%;
+    }
+
     .nav-items-container a{
         margin-top: 20px;
     }
     
     .background-color{
         margin-top: 30px;
-        
+        width: 60%;
+    }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+
+    .banner-img{
+        margin-top: 30px;
+    }
+    
+    .banner-text{
+        padding-top: 0px;
+        padding-bottom: 120px;
     }
 
 }
@@ -27,6 +48,11 @@
     .nav-container, .nav-items-container {
         flex-direction: column;
     }
+
+    .logo-container{
+        margin-left: 50px;
+    }
+
     .nav-items-container a{
         margin-top: 20px;
     }
@@ -35,5 +61,24 @@
         margin-top: 30px;
         
     }
+
+    .banner-container{
+        flex-direction: column-reverse;
+    }
+
+    .banner-text, .banner-img{
+        width: 100%;
+    }
+
+    .banner-img{
+        margin-top: 30px;
+    }
+
+    .banner-text{
+        padding-top: 0px;
+        padding-bottom: 120px;
+    }
+
+    
 
 }
