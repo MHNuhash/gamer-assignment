@@ -83,6 +83,9 @@
         padding-bottom: 120px;
     }
 
+    .main-img, .big-img, .main-text {
+        width: 100%;
+    }
     
 
 }
