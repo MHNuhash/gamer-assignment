@@ -94,9 +94,6 @@ nav{
     
     width: 50%;
     background-image: url(../images/Group\ 14.png);
-    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
-    /* padding-right: 300px; */
-    /* padding-left: 240px; */
     text-align: center;
     
 }
@@ -171,38 +168,6 @@ h1{
     border-radius: 48px;
     background: #4EC5F7;
 }
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-.goat-text-container{
-    margin-top: 0px;
-    width: 901px;
-    height: 700px;
-    background-image: url(../images/Group\ 14.png);
-    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
-    /* padding-right: 300px; */
-    padding-left: 240px;
-}
-
-.goat-img-container{
-    margin-top: 10px;
-    background: #FFF;
-    width: 1920px;
-    /* height: 5927px; */
-}   
-
 
 
 
