@@ -1,7 +1,7 @@
 /* responsive media query */
 /* mobile device */
 @media screen and (max-width: 576px) {
-    .nav-container,  .nav-items-container {
+    .nav-container,  .nav-items-container, .games {
         flex-direction: column;
     }
 
@@ -38,14 +38,13 @@
         padding-top: 0px;
         padding-bottom: 120px;
     }
-
 }
 
 
 
 /* medium device */
 @media screen and (min-width: 576px) and (max-width:960px) {
-    .nav-container, .nav-items-container {
+    .nav-container, .nav-items-container, .games {
         flex-direction: column;
     }
 

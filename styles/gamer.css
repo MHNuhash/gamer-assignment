@@ -170,10 +170,49 @@ h1{
 }
 
 
+/* main section 1 */
+
+.online-games{
+    max-width: 1800px;
+    max-height: 500px;
+    text-align: center;
+}
+
+.article{
+
+}
+
+.title{
 
 
+}
 
-/* main section */
+.funny{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 48px;
+font-weight: 700;
+}
+
+.title-description{
+    color: #534C64;
+
+font-family: Work Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+padding-bottom: 10px;
+}
+
+.games{
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center;
+    text-align: center;
+    justify-content: space-between; */
+}
 
 
 /* footer section */
