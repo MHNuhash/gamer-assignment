@@ -7,9 +7,14 @@
 
 /* common shared css */
 
-.game{
+body{
+    margin: 0;
+}
+
+.gamer{
     color: #FF42A5;
 }
+
 
 
 /* header section */
@@ -18,6 +23,10 @@ header{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 40px 240px;
+    max-width: 2250px;
+    width: 100%;
+    margin: 0 auto;
+    
 }
 
 nav{
@@ -44,10 +53,9 @@ nav > ul{
 
 nav li{
     list-style: none;
-    margin-right: 30px;
-    font-size: 1.2rem;
+    margin-right: 50px;
+    font-size: 1.5rem;
     font-weight: 500;
-    align-items: center;
 }
 
 nav li a{
@@ -55,13 +63,81 @@ nav li a{
     color: #3C354F;
 }
 
-.jot {
+.icon-img{
+    padding-right: 30px;
+}
+
+.jot-icon {
+    display: flex;
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    /* padding: 18px 24px; */
-    padding: 20px 25px;
-    gap: 30px;
+    padding: 20px 0px 20px 40px;
 }
+
+.right-icons{
+    align-items: center;
+
+}
+
+/* banner section */
+.goat-container{
+    display: flex;
+    align-items: center;
+    
+}
+
+.goat-text-container{
+    margin-top: 0px;
+    width: 901px;
+    height: 700px;
+    background-image: url(../images/Group\ 14.png);
+    /* fill: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%); */
+    /* padding-right: 300px; */
+    padding-left: 240px;
+}
+
+.goat-img-container{
+    margin-top: 10px;
+    background: #FFF;
+    width: 1920px;
+    /* height: 5927px; */
+}   
+
+
+h3{
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+h1{
+    font-size: 6rem;
+    font-weight: 800;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn{
+    display: inline-flex;
+    padding: 21px 40px;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0px;
+}
+
+.btn-1{
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+}
+
+.btn-2{
+    border-radius: 48px;
+    background: #4EC5F7;
+}
+
+
 
 
 /* main section */
@@ -72,8 +148,14 @@ nav li a{
 
 
 
-/* media query */
+/* responsive media query */
 /* mobile device */
+@media screen and (max-width: 576px) {
+    nav, nav > ul{
+        flex-direction: column;
+    }
+}
+
 
 
 /* medium device */
