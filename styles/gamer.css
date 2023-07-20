@@ -3,6 +3,7 @@
 
 * {
     font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 /* common shared css */
@@ -15,69 +16,74 @@ body{
     color: #FF42A5;
 }
 
-
-
-/* header section */
-
-header{
+/* navbar section */
+nav{
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 40px 240px;
-    max-width: 2250px;
-    width: 100%;
-    margin: 0 auto;
-    
 }
 
-nav{
+
+.nav-container{
+    min-height: 50px;
+    display: flex;
+    align-items: center;
+    max-width: 1900px;
+    margin: 0 auto;
+}
+
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.logo-container img{
+    width: 90px;
+    height: 45px;
+    /* object-fit: cover; */
+    margin: 40px 20px 40px 100px;
+}
+
+.logo-container p{
+    font-size: 30px;
+}
+
+
+.nav-items-container{
+    width: 40%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: auto 100px;
 }
 
-.nav-icon{
-    width: 90px;
-    height: 45px;
-    padding: 55px 30px;
-}
-
-.nav-title {
-    font-size: 3rem;
-    font-weight: 700;
-    color: #0B0223;
-}
-
-nav > ul{
-    display: flex;
-}
-
-nav li{
-    list-style: none;
-    margin-right: 50px;
-    font-size: 1.5rem;
-    font-weight: 500;
-}
-
-nav li a{
+.nav-items-container a{
     text-decoration: none;
-    color: #3C354F;
 }
 
-.icon-img{
-    padding-right: 30px;
-}
-
-.jot-icon {
-    display: flex;
+.background-color{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
-    padding: 20px 0px 20px 40px;
+    padding: 20px;
+    
 }
 
-.right-icons{
-    align-items: center;
-
+.youtube{
+    font-size: x-large;
+    padding-right: 10px;
+    padding-left: 15px;
 }
+
+.tiktok{
+    font-size: x-large;
+}
+
+
+
+
+
+
+
 
 /* banner section */
 .goat-container{
@@ -145,17 +151,3 @@ h1{
 
 /* footer section */
 
-
-
-
-/* responsive media query */
-/* mobile device */
-@media screen and (max-width: 576px) {
-    nav, nav > ul{
-        flex-direction: column;
-    }
-}
-
-
-
-/* medium device */

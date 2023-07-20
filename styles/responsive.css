@@ -1,0 +1,39 @@
+/* responsive media query */
+/* mobile device */
+@media screen and (max-width: 576px) {
+    .nav-container,  .nav-items-container {
+        flex-direction: column;
+    }
+
+    .logo-container{
+        margin-right: 140px;
+    }
+
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+    
+    .background-color{
+        margin-top: 30px;
+        
+    }
+
+}
+
+
+
+/* medium device */
+@media screen and (min-width: 576px) and (max-width:960px) {
+    .nav-container, .nav-items-container {
+        flex-direction: column;
+    }
+    .nav-items-container a{
+        margin-top: 20px;
+    }
+    
+    .background-color{
+        margin-top: 30px;
+        
+    }
+
+}
